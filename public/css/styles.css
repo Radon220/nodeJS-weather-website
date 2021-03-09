@@ -1,0 +1,51 @@
+body{
+    background-color:palevioletred;
+    text-align: center;
+    color: aquamarine;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 30%;
+    margin:10px;
+    padding:10px;
+}
+#form-location{
+    padding: 20px;
+    margin: 20px;
+}
+#resTxt{
+    font-size: 5vw;
+    color: maroon;
+    font-style: oblique;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+header a:link {
+    background-color: gray;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+  }
+
+  
+header a:hover {
+    background-color: rgb(252, 166, 132);
+}
+  
+  
+header a:visited {
+    background-color:gray;
+    color: white;
+}
+
+footer{
+    color: white;
+    font-size: 12px;
+    opacity: 0.6;
+}
