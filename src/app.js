@@ -57,7 +57,7 @@ app.get('/weather',(req,res)=>{
             });
         }
 
-        forecast(lat,long, (forecastError, {currentTemp,feelCurrTempt} = {}) => {
+        forecast(lat,long, (forecastError, {currentTemp,feelCurrTempt,humidity} = {}) => {
 
             if(forecastError){
                 return res.send({
