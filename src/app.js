@@ -70,7 +70,8 @@ app.get('/weather',(req,res)=>{
                 lat,
                 long,
                 currentTemp: currentTemp+'C',
-                feelsLike: feelCurrTempt + 'C'
+                feelsLike: feelCurrTempt + 'C',
+                humidity: humidity + '%'
             })        
         })
     })

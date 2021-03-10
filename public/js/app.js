@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         document.getElementById('location').innerHTML = "Location: "+ data.location
                         document.getElementById('currentTemp').innerHTML ="Current Temperature: "+  data.currentTemp
                         document.getElementById('feelsTemp').innerHTML ="Feels Like: "+  data.feelsLike
+                        document.getElementById('humidity').innerHTML ="Current Humidity: "+  data.humidity
                     }
                 })
 

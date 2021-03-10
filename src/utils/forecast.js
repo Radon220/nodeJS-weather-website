@@ -14,11 +14,13 @@ const forecast = (lat,long,callback)=>{
         else{
             const currentTemp = current.temperature;
             const feelCurrTempt = current.feelslike;
+            const humidity = current.humidity;
             
 
             callback(undefined,{
                 currentTemp,
-                feelCurrTempt
+                feelCurrTempt,
+                humidity
             })
         }
 
